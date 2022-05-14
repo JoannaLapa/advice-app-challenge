@@ -1,0 +1,86 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: hsl(218deg, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+}
+
+.attribution {
+  -ms-flex-item-align: end;
+      align-self: end;
+  justify-self: end;
+  font-size: 11px;
+  color: hsl(228deg, 45%, 44%);
+}
+
+.advice__container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  height: 70%;
+  margin: 2em;
+  padding: 2em;
+  border-radius: 50%;
+  background-color: hsl(218deg, 23%, 16%);
+  z-index: 199;
+}
+.advice__shadow {
+  position: absolute;
+  background-color: hsl(217deg, 19%, 38%);
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 5;
+}
+.advice__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%;
+  background-color: hsl(217deg, 19%, 24%);
+  border: 2px, solid, hsl(218deg, 23%, 16%);
+  border-radius: 20px;
+}
+.advice__title {
+  padding: 2em;
+  color: hsl(150deg, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.advice__txt {
+  color: hsl(193deg, 38%, 86%);
+}/*# sourceMappingURL=style.css.map */
