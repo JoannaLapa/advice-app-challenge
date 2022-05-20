@@ -1,13 +1,12 @@
 'use strict'
 
-let adviceNumber = document.querySelector('#advice-number')
-let adviceText = document.querySelector('#advice')
+const adviceNumber = document.querySelector('#advice-number')
+const adviceText = document.querySelector('#advice')
 const button = document.querySelector('#button')
-
-let URL = 'https://api.adviceslip.com/advice'
+const URL = 'https://api.adviceslip.com/advice'
 
 function getAdvice() {
-	fetch(URL, {cache: "no-cache"})
+	fetch(URL, { cache: 'no-cache' })
 		.then(res => {
 			return res.json()
 		})
