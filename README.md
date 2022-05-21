@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/JoannaLapa/interactive-rating-component-main)
+- Solution URL: [Add solution URL here](https://github.com/JoannaLapa/advice-app-challenge)
 - Live Site URL: [Add live site URL here](https://joannalapa.github.io/advice-app-challenge/)
 
 ## My process
